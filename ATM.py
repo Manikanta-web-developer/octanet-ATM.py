@@ -9,7 +9,7 @@ print("------------------------------------------------")
 
 time.sleep(5)
 
-password = 0731
+password = 7310
 
 pin = int(input("Enter your ATM PIN : "))
 
@@ -40,7 +40,7 @@ if pin==password:
            print("------------------------------------------------")
 
 
-        expect:
+        except:
             
            print("Please enter valid option")
 
